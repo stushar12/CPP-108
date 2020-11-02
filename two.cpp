@@ -28,7 +28,7 @@ while(q.empty()==false)
 {
     int z=q.front();
     q.pop();
-    cout<<z<<" "
+    cout<<z<<" ";
     for(int j:g[z])
     {
         if(visited[j]==-1)
